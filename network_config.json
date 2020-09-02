@@ -1,8 +1,8 @@
 {
     "HOST": "127.0.0.1",
-    "PORT": "9017",
+    "PORT": "9018",
     "DATA_BYTES_LENGTH_TCP": "16",
     "DATA_BYTES_LENGTH_UDP": "24",
-    "HOST_SEND": "127.0.0.1",
-    "PORT_SEND": "15004"
+    "HOST_ANOTHER": "127.0.0.1",
+    "PORT_ANOTHER": "15005"
 }

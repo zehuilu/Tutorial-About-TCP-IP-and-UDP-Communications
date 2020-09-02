@@ -26,16 +26,7 @@ sizeA = str2double(struct_json.DATA_BYTES_LENGTH_TCP)/8;
 fopen(sock_subscriber);
 
 while true
-    % write a message
-%     fwrite(t, 'This is a test message.');
-    % read the echo
-    
-    
- 
-%     fopen(sock_subscriber);
     packetData = fread(sock_subscriber, sizeA, 'double');
     disp("Received data");
     disp(packetData);
-%     fclose(sock_subscriber);
-
 end

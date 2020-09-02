@@ -1,0 +1,11 @@
+*.m~
+*.asv
+*.pdf
+*.jpg
+*.png
+*.DS_Store
+*.log
+*.log*
+*.o
+/.vscode/*
+/build/*

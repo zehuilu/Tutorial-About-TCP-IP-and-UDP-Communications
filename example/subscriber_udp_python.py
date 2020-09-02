@@ -20,14 +20,14 @@ def subscriber_udp_main(network_config_file_name):
     HOST = json_file_data['HOST']
 
     # Think about in what case you need this IP address.
-    # HOST = json_file_data['HOST_SEND']
+    # HOST = json_file_data['HOST_ANOTHER']
 
     # Port for publisher (non-privileged ports are > 1023)
     # Remember to convert the string to an integer
     PORT = int(json_file_data['PORT'])
 
     # Think about in what case you need this port.
-    # PORT = int(json_file_data['PORT_SEND'])
+    # PORT = int(json_file_data['PORT_ANOTHER'])
 
     # Create a UDP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

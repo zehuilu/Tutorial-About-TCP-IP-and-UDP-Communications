@@ -12,8 +12,8 @@ IP_recv = struct_json.HOST;
 Port_recv = str2double(struct_json.PORT);
 
 % These two are IP address and port for sending data.
-IP_send = struct_json.HOST_SEND;
-Port_send = str2double(struct_json.PORT_SEND);
+IP_send = struct_json.HOST_ANOTHER;
+Port_send = str2double(struct_json.PORT_ANOTHER);
 
 % This line creates a UDP object to send and receive data.
 udp_obj = udp(IP_send, Port_send, ...
