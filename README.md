@@ -1,7 +1,7 @@
 # Tutorial-About-TCP-IP-and-UDP-Communications
 This is a tutorial about how to communicate via TCP/IP and UDP protocols via multiple computer languages such as Python, MATLAB and C++.
 
-**Dependencies:** [MATLAB](https://www.mathworks.com/products/matlab.html), [spotless](https://numpy.org)
+**Dependencies:** [MATLAB](https://www.mathworks.com/products/matlab.html), [numpy](https://numpy.org)
 
 **Introduction:** This is a tutorial about how to communicate via TCP/IP and UDP protocols via multiple computer languages such as Python, MATLAB and C++.
 
