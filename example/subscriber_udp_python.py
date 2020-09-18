@@ -16,13 +16,13 @@ def subscriber_udp_main(network_config_file_name):
     json_file = open(network_config_file_name)
     json_file_data = json.load(json_file)
 
-    # IP for publisher
+    # IP for subscriber
     HOST = json_file_data['HOST']
 
     # Think about in what case you need this IP address.
     # HOST = json_file_data['HOST_ANOTHER']
 
-    # Port for publisher (non-privileged ports are > 1023)
+    # Port for subscriber (non-privileged ports are > 1023)
     # Remember to convert the string to an integer
     PORT = int(json_file_data['PORT'])
 
